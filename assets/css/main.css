@@ -1828,14 +1828,14 @@ input, select, textarea {
 			#nav a span {
 				display: block;
 				position: absolute;
-				background: #222222;
+				/* background: #222222; */
 				color: #ffffff;
 				top: -2.75em;
 				font-size: 0.3em;
 				height: 2.25em;
 				line-height: 2.25em;
 				left: 50%;
-				opacity: 0;
+				opacity: 1;
 				-moz-transition: opacity .25s ease-in-out;
 				-webkit-transition: opacity .25s ease-in-out;
 				-ms-transition: opacity .25s ease-in-out;
@@ -1851,9 +1851,9 @@ input, select, textarea {
 					bottom: -0.4em;
 					left: 50%;
 					margin-left: -0.6em;
-					border-top: solid 0.6em #222222;
+					/* border-top: solid 0.6em #222222;
 					border-left: solid 0.6em transparent;
-					border-right: solid 0.6em transparent;
+					border-right: solid 0.6em transparent; */
 				}
 
 			#nav a:hover {

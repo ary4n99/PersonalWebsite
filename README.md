@@ -14,3 +14,4 @@ Other:
 - [background-size polyfill](https://github.com/louisremi/background-size-polyfill)
 - [Repond.js](https://github.com/scottjehl/Respond)
 - [Skel](https://github.com/ajlkn/skel)
+- [W3 CSS Image Gallery](https://www.w3schools.com/css/css_image_gallery.asp)

@@ -7,6 +7,87 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+* {
+	box-sizing: border-box;
+  }
+
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+	position: relative;
+  }
+
+  /* Hide the images by default */
+  .mySlides {
+	display: none;
+  }
+
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+	cursor: pointer;
+  }
+
+  /* Next & previous buttons */
+  .prev,
+  .next {
+	cursor: pointer;
+	position: absolute;
+	top: 40%;
+	width: auto;
+	padding: 16px;
+	margin-top: -50px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	-webkit-user-select: none;
+	background-color: rgba(0, 0, 0, 0.2);
+
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover {}
+  .next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  /* Container for image text */
+  .caption-container {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	color: black;
+	font-weight: bold;
+
+  }
+
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+  /* Six columns side by side */
+  .column {
+	float: left;
+	width: 25%; /*100/number of images */
+  }
+
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+	opacity: 0.5;
+  }
+
+  .active,
+  .demo:hover {
+	opacity: 1;
+  }
 
 ::-webkit-scrollbar {
 	width: 0px;
@@ -19,7 +100,7 @@ pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
 u, i, center, dl, dt, dd, ol, ul, li, fieldset,
-form, label, legend, table, caption, tbody,
+form, label, legend, table, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
@@ -1609,6 +1690,8 @@ input, select, textarea {
 		margin-right:5px;
 		margin-bottom:5px;
 		margin-top:5px;
+		border-radius: 3px;
+
 	}
 
 		input[type="button"]:hover,

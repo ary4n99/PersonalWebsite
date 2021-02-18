@@ -17,7 +17,7 @@
 						<a href="#" class="icon solid fa-home"><span>Home</span></a>
 						<a href="#projects" class="icon solid fa-folder"><span>Projects</span></a>
 						<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
-						<a href="assets/AryanAgrawal-Resume.pdf" class="icon solid fa-file-alt"><span>Resume</span></a>
+						<a href="assets/AryanAgrawal-Resume.pdf" target="_blank" rel="noopener noreferrer" class="icon solid fa-file-alt"><span>Resume</span></a>
 					</nav>
 
 				<!-- Main -->
@@ -44,7 +44,7 @@
 									<h2>Projects</h2>
 								</header>
 								<p>
-									<b>Recipedia</b> <i>(In Progress)</i>
+									<b>Recipe Finder Website: Recipedia</b> <i>(In Progress)</i>
 									<br>
 									A revolutionary web application which recommends healthy and tasty recipes to users based on their dietary requirements, allergies, BMI, and other user inputs.
 									<br>
@@ -53,9 +53,9 @@
 									<br>
 									<br>
 
-									<b>Interphase</b>
+									<b>Educational Programming Website: Interphase</b>
 									<br>
-									An educational website made in under 12 hours, aiming to help people with no programming experience to get started with their coding journey.
+									An educational website made in under 12 hours for the GreatUniHack 2020, aiming to help people with no programming experience to get started with their coding journey.
 									<br>
 									<a href="https://thecodingbridge.github.io/Interphase/" style="font-size: 1em; color: black;"><button>Website</button></a>
 									<a href="https://github.com/TheCodingBridge/Interphase" style="font-size: 1em; color: black;"><button>Source code</button></a>
@@ -63,7 +63,15 @@
 									<br>
 									<br>
 
-									<b>The Impossible Game</b>
+									<b>UniCS GameDev Society Website</b> <i>(In Progress)</i>
+									<br>
+									The home page for the UniCS GameDev Society, displaying information about the society, members, and
+									upcoming events, made using React.
+
+									<br>
+									<br>
+
+									<b>Python Tkinter Puzzle Game: The Impossible Game</b>
 									<br>
 									An interactive puzzle game made completely using Python’s Tkinter module, implementing collision detection, leaderboards, game saving, dynamic level progression, and much more.
 									<br>
@@ -72,23 +80,60 @@
 									<br>
 									<br>
 
-									<b>Python Tetris Remake</b>
+									<b>Python Pygame Tetris Remake</b>
 									<br>
 									A Pygame version of Tetris made for an EPQ project, with almost no programming experience. Accompanied by a 6234 word essay about the development of the project and code progression.
 									<br>
 									<a href="https://github.com/ary4n99/tetris-epq" style="font-size: 1em; color: black;"><button>Source code</button></a>
 									<br>
 
+									<hr>
+
+									<!-- Container for the image gallery -->
+									<div class="container">
+										<!-- Full-width images with number text -->
+										<div class="mySlides">
+											<img src="images/interphase.png" style="width:100%; border:2px solid black;">
+										</div>
+
+										<div class="mySlides">
+											<img src="images/unics.png" style="width:100%">
+										</div>
+
+										<div class="mySlides">
+											<img src="images/impossiblegame.png" style="width:100%">
+										</div>
+
+										<div class="mySlides">
+											<img src="images/tetris.png" style="width:100%">
+										</div>
+
+										<!-- Next and previous buttons -->
+										<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+										<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+										<!-- Image text -->
+										<div class="caption-container">
+											<p id="caption" style="	font-family: 'Helvetica', sans-serif;"></p>
+										</div>
+
+										<!-- Thumbnail images -->
+										<div class="row">
+											<div class="column">
+												<img class="demo cursor" src="images/interphase.png" style="width:100%" onclick="currentSlide(1)" alt="Interphase">
+											</div>
+											<div class="column">
+												<img class="demo cursor" src="images/unics.png" style="width:100%" onclick="currentSlide(2)" alt="UniCS GameDev Society Website">
+											</div>
+											<div class="column">
+												<img class="demo cursor" src="images/impossiblegame.png" style="width:100%" onclick="currentSlide(3)" alt="The Impossible Game">
+											</div>
+											<div class="column">
+												<img class="demo cursor" src="images/tetris.png" style="width:100%" onclick="currentSlide(4)" alt="Python Pygame Tetris Remake">
+											</div>
+										</div>
+									</div>
 								</p>
-								<!-- <section> -->
-								<div>
-								<a href="images/interphase.png" class="image fit" style="text-align: center; font-size: 1em; color: black; text-decoration: none;"><img style="border: 2px solid gray;" src="images/interphase.png" alt="interphase">Interphase</a>
-								<br>
-								<a href="images/impossiblegame.png" class="image fit" style="text-align: center; font-size: 1em; color: black; text-decoration: none;"><img style="border: 2px solid gray;" src="images/impossiblegame.png" alt="interphase">The Impossible Game</a>
-								<br>
-								<a href="images/tetris.png" class="image fit" style="text-align: center; font-size: 1em; color: black; text-decoration: none;"><img style="border: 2px solid gray;" src="images/tetris.png" alt="interphase">Python Tetris Remake</a>
-								</div>
-								<!-- </section> -->
 							</article>
 
 						<!-- Contact -->
@@ -134,6 +179,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/gallery.js"></script>
 
 	</body>
 </html>

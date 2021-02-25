@@ -76,7 +76,7 @@
   /* Six columns side by side */
   .column {
 	float: left;
-	width: 25%; /*100/number of images */
+	width: 20%; /*100/number of images */
   }
 
   /* Add a transparency effect for thumnbail images */

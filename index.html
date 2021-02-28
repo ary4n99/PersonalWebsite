@@ -1,192 +1,299 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Aryan Agrawal</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+  <head>
+    <title>Aryan Agrawal</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <div id="wrapper">
+      <!-- Navigation -->
+      <nav id="nav">
+        <a href="#" class="icon solid fa-home"><span>Home</span></a>
+        <a href="#projects" class="icon solid fa-folder"
+          ><span>Projects</span></a
+        >
+        <a href="#contact" class="icon solid fa-envelope"
+          ><span>Contact</span></a
+        >
+        <a
+          href="assets/AryanAgrawal-Resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="icon solid fa-file-alt"
+          ><span>Resume</span></a
+        >
+      </nav>
 
-		<!-- Wrapper-->
-			<div id="wrapper">
+      <!-- Main -->
+      <div id="main">
+        <!-- Home -->
+        <article id="home" class="panel intro">
+          <header>
+            <h1>Aryan Agrawal</h1>
+            <p>
+              First year computer science undergraduate at the University of
+              Manchester
+            </p>
+            <br />
+            <a
+              href="https://github.com/ary4n99"
+              class="icon brands fa-github"
+              style="font-size: 3em; color: black"
+              ><span> </span
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/aryan-a/"
+              class="icon brands fa-linkedin"
+              style="font-size: 3em; color: black"
+            ></a>
+          </header>
+          <a href="#projects" class="jumplink pic">
+            <img src="images/me.jpg" alt="" />
+          </a>
+        </article>
 
-				<!-- Navigation -->
-					<nav id="nav">
-						<a href="#" class="icon solid fa-home"><span>Home</span></a>
-						<a href="#projects" class="icon solid fa-folder"><span>Projects</span></a>
-						<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
-						<a href="assets/AryanAgrawal-Resume.pdf" target="_blank" rel="noopener noreferrer" class="icon solid fa-file-alt"><span>Resume</span></a>
-					</nav>
+        <!-- Projects -->
+        <article id="projects" class="panel">
+          <header>
+            <h2>Projects</h2>
+          </header>
+          <p>
+            <b>Recipe Finder Website: Recipedia</b> <i>(In Progress)</i>
+            <br />
+            A revolutionary web application which recommends healthy and tasty
+            recipes to users based on their dietary requirements, allergies,
+            BMI, and other user inputs.
+            <br />
+            <a
+              href="https://github.com/W8-Recipedia/Recipedia"
+              style="font-size: 1em; color: black"
+              ><button>Source code</button></a
+            >
+            <a
+              onclick="currentSlideButton(1)"
+              style="font-size: 1em; color: black"
+              ><button>Image</button></a
+            >
+            <br />
+            <br />
+            <b>Educational Programming Website: Interphase</b>
+            <br />
+            An educational website made in under 12 hours for GreatUniHack 2020,
+            aiming to help people with no programming experience to get started
+            with their coding journey.
+            <br />
+            <a
+              href="https://thecodingbridge.github.io/Interphase/"
+              style="font-size: 1em; color: black"
+              ><button>Website</button></a
+            >
+            <a
+              href="https://github.com/TheCodingBridge/Interphase"
+              style="font-size: 1em; color: black"
+              ><button>Source code</button></a
+            >
+            <a
+              onclick="currentSlideButton(2)"
+              style="font-size: 1em; color: black"
+              ><button>Image</button></a
+            >
+            <br />
+            <br />
+            <b>UniCS GameDev Society Website</b> <i>(In Progress)</i>
+            <br />
+            The home page for the UniCS GameDev Society, displaying information
+            about the society, members, and upcoming events, made using React.
+            <br />
+            <a
+              onclick="currentSlideButton(3)"
+              style="font-size: 1em; color: black"
+              ><button>Image</button></a
+            >
+            <br />
+            <br />
+            <b>Python Tkinter Puzzle Game: The Impossible Game</b>
+            <br />
+            An interactive puzzle game made completely using Python’s Tkinter
+            module, implementing collision detection, leaderboards, game saving,
+            dynamic level progression, and much more.
+            <br />
+            <a
+              href="https://github.com/ary4n99/impossiblegame"
+              style="font-size: 1em; color: black"
+              ><button>Source code</button></a
+            >
+            <a
+              onclick="currentSlideButton(4)"
+              style="font-size: 1em; color: black"
+              ><button>Image</button></a
+            >
+            <br />
+            <br />
+            <b>Python Pygame Tetris Remake</b>
+            <br />
+            A Pygame version of Tetris made for an EPQ project, with almost no
+            programming experience. Accompanied by a 6234 word essay about the
+            development of the project and code progression.
+            <br />
+            <a
+              href="https://github.com/ary4n99/tetris-epq"
+              style="font-size: 1em; color: black"
+              ><button>Source code</button></a
+            >
+            <a
+              onclick="currentSlideButton(5)"
+              style="font-size: 1em; color: black"
+              ><button>Image</button></a
+            >
+            <br />
+          </p>
 
-				<!-- Main -->
-					<div id="main">
+          <hr />
 
-						<!-- Me -->
-							<article id="home" class="panel intro">
-								<header>
-									<h1>Aryan Agrawal</h1>
-									<p>First year computer science undergraduate at the University of Manchester</p>
-									<br>
-									<a href="https://github.com/ary4n99" class="icon brands fa-github" style="font-size: 3em; color: black;"><span> </span></a>
-									<a href="https://www.linkedin.com/in/aryan-a/" class="icon brands fa-linkedin" style="font-size: 3em; color: black;"></a>
-								</header>
-								<a href="#projects" class="jumplink pic">
-									<!-- <span class="arrow icon solid fa-chevron-right"><span>Projects</span></span> -->
-									<img src="images/me.jpg" alt="" />
-								</a>
-							</article>
+          <!-- Container for image gallery -->
+          <div class="container" id="imagecontainer">
+            <!-- Full-width images with number text -->
+            <div class="mySlides">
+              <img src="images/recipedia.png" style="width: 100%" />
+            </div>
 
-						<!-- projects -->
-							<article id="projects" class="panel">
-								<header>
-									<h2>Projects</h2>
-								</header>
-								<p>
-									<b>Recipe Finder Website: Recipedia</b> <i>(In Progress)</i>
-									<br>
-									A revolutionary web application which recommends healthy and tasty recipes to users based on their dietary requirements, allergies, BMI, and other user inputs.
-									<br>
-									<a href="https://github.com/W8-Recipedia/Recipedia" style="font-size: 1em; color: black;"><button>Source code</button></a>
+            <div class="mySlides">
+              <img
+                src="images/interphase.png"
+                style="width: 100%; border: 2px solid black"
+              />
+            </div>
 
-									<br>
-									<br>
+            <div class="mySlides">
+              <img src="images/unics.png" style="width: 100%" />
+            </div>
 
-									<b>Educational Programming Website: Interphase</b>
-									<br>
-									An educational website made in under 12 hours for GreatUniHack 2020, aiming to help people with no programming experience to get started with their coding journey.
-									<br>
-									<a href="https://thecodingbridge.github.io/Interphase/" style="font-size: 1em; color: black;"><button>Website</button></a>
-									<a href="https://github.com/TheCodingBridge/Interphase" style="font-size: 1em; color: black;"><button>Source code</button></a>
+            <div class="mySlides">
+              <img src="images/impossiblegame.png" style="width: 100%" />
+            </div>
 
-									<br>
-									<br>
+            <div class="mySlides">
+              <img src="images/tetris.png" style="width: 100%" />
+            </div>
 
-									<b>UniCS GameDev Society Website</b> <i>(In Progress)</i>
-									<br>
-									The home page for the UniCS GameDev Society, displaying information about the society, members, and
-									upcoming events, made using React.
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-									<br>
-									<br>
+            <!-- Image text -->
+            <div class="caption-container">
+              <p id="caption" style="font-family: 'Helvetica', sans-serif"></p>
+            </div>
 
-									<b>Python Tkinter Puzzle Game: The Impossible Game</b>
-									<br>
-									An interactive puzzle game made completely using Python’s Tkinter module, implementing collision detection, leaderboards, game saving, dynamic level progression, and much more.
-									<br>
-									<a href="https://github.com/ary4n99/impossiblegame" style="font-size: 1em; color: black;"><button>Source code</button></a>
+            <!-- Thumbnail images -->
+            <div class="row">
+              <div class="column">
+                <img
+                  class="demo cursor"
+                  src="images/recipedia.png"
+                  style="width: 100%"
+                  onclick="currentSlide(1)"
+                  alt="Recipedia"
+                />
+              </div>
+              <div class="column">
+                <img
+                  class="demo cursor"
+                  src="images/interphase.png"
+                  style="width: 100%"
+                  onclick="currentSlide(2)"
+                  alt="Interphase"
+                />
+              </div>
+              <div class="column">
+                <img
+                  class="demo cursor"
+                  src="images/unics.png"
+                  style="width: 100%"
+                  onclick="currentSlide(3)"
+                  alt="UniCS GameDev Society Website"
+                />
+              </div>
+              <div class="column">
+                <img
+                  class="demo cursor"
+                  src="images/impossiblegame.png"
+                  style="width: 100%"
+                  onclick="currentSlide(4)"
+                  alt="The Impossible Game"
+                />
+              </div>
+              <div class="column">
+                <img
+                  class="demo cursor"
+                  src="images/tetris.png"
+                  style="width: 100%"
+                  onclick="currentSlide(5)"
+                  alt="Python Pygame Tetris Remake"
+                />
+              </div>
+            </div>
+          </div>
+        </article>
 
-									<br>
-									<br>
+        <!-- Contact -->
+        <article id="contact" class="panel">
+          <header>
+            <h2>Contact</h2>
+          </header>
+          <form action="https://formspree.io/f/xgeplvob" method="post">
+            <div>
+              <div class="row">
+                <div class="col-6 col-12-medium">
+                  <input type="text" name="name" placeholder="Name" />
+                </div>
+                <div class="col-6 col-12-medium">
+                  <input type="email" name="email" placeholder="Email" />
+                </div>
+                <div class="col-12">
+                  <input type="text" name="subject" placeholder="Subject" />
+                </div>
+                <div class="col-12">
+                  <textarea
+                    name="message"
+                    placeholder="Message"
+                    rows="6"
+                  ></textarea>
+                </div>
+                <div class="col-12">
+                  <input type="submit" value="Send Message" />
+                </div>
+              </div>
+            </div>
+          </form>
+        </article>
+      </div>
+      <div id="footer">
+        <ul class="copyright" style="text-decoration: none; opacity: 0">
+          <li>
+            Design from
+            <a href="http://html5up.net" style="text-decoration: none"
+              >HTML5 UP</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
 
-									<b>Python Pygame Tetris Remake</b>
-									<br>
-									A Pygame version of Tetris made for an EPQ project, with almost no programming experience. Accompanied by a 6234 word essay about the development of the project and code progression.
-									<br>
-									<a href="https://github.com/ary4n99/tetris-epq" style="font-size: 1em; color: black;"><button>Source code</button></a>
-									<br>
-
-									<hr>
-
-									<!-- Container for the image gallery -->
-									<div class="container">
-										<!-- Full-width images with number text -->
-										<div class="mySlides">
-											<img src="images/recipedia.png" style="width:100%">
-										</div>
-
-										<div class="mySlides">
-											<img src="images/interphase.png" style="width:100%; border:2px solid black;">
-										</div>
-
-										<div class="mySlides">
-											<img src="images/unics.png" style="width:100%">
-										</div>
-
-										<div class="mySlides">
-											<img src="images/impossiblegame.png" style="width:100%">
-										</div>
-
-										<div class="mySlides">
-											<img src="images/tetris.png" style="width:100%">
-										</div>
-
-										<!-- Next and previous buttons -->
-										<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-										<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-										<!-- Image text -->
-										<div class="caption-container">
-											<p id="caption" style="	font-family: 'Helvetica', sans-serif;"></p>
-										</div>
-
-										<!-- Thumbnail images -->
-										<div class="row">
-											<div class="column">
-												<img class="demo cursor" src="images/recipedia.png" style="width:100%" onclick="currentSlide(1)" alt="Recipedia">
-											</div>
-											<div class="column">
-												<img class="demo cursor" src="images/interphase.png" style="width:100%" onclick="currentSlide(2)" alt="Interphase">
-											</div>
-											<div class="column">
-												<img class="demo cursor" src="images/unics.png" style="width:100%" onclick="currentSlide(3)" alt="UniCS GameDev Society Website">
-											</div>
-											<div class="column">
-												<img class="demo cursor" src="images/impossiblegame.png" style="width:100%" onclick="currentSlide(4)" alt="The Impossible Game">
-											</div>
-											<div class="column">
-												<img class="demo cursor" src="images/tetris.png" style="width:100%" onclick="currentSlide(5)" alt="Python Pygame Tetris Remake">
-											</div>
-										</div>
-									</div>
-								</p>
-							</article>
-
-						<!-- Contact -->
-							<article id="contact" class="panel">
-								<header>
-									<h2>Contact</h2>
-								</header>
-								<form action="https://formspree.io/f/xgeplvob" method="post">
-									<div>
-										<div class="row">
-											<div class="col-6 col-12-medium">
-												<input type="text" name="name" placeholder="Name" />
-											</div>
-											<div class="col-6 col-12-medium">
-												<input type="email" name="email" placeholder="Email"/>
-											</div>
-											<div class="col-12">
-												<input type="text" name="subject" placeholder="Subject" />
-											</div>
-											<div class="col-12">
-												<textarea name="message" placeholder="Message" rows="6"></textarea>
-											</div>
-											<div class="col-12">
-												<input type="submit" value="Send Message" />
-											</div>
-										</div>
-									</div>
-								</form>
-							</article>
-
-					</div>
-					<div id="footer">
-						<ul class="copyright" style="text-decoration: none; opacity: 0;">
-							<li>Design from <a href="http://html5up.net" style="text-decoration: none; ">HTML5 UP</a></li>
-						</ul>
-					</div>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script src="assets/js/gallery.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/gallery.js"></script>
+  </body>
 </html>

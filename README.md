@@ -1,6 +1,7 @@
 # Aryan Agrawal's Personal Website
 
-### Credits
+## Credits
+
 - [Astral by HTML5 UP](https://html5up.net/astral)
 - [background-size polyfill](https://github.com/louisremi/background-size-polyfill)
 - [Font Awesome](https://fontawesome.com)

@@ -4,4 +4,6 @@ A personal website showcasing my coding projects and resume, made with HTML5, CS
 
 ## Credits
 
-[Ceevee by StyleShout](https://www.styleshout.com/free-templates/ceevee/)
+- [StyleShout](https://www.styleshout.com)
+- [Flaticon](https://flaticon.com)
+	

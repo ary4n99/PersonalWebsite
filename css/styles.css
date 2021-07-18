@@ -3417,6 +3417,24 @@ button.btn--resume:hover {
   .s-header__nav {
     padding: 6.8rem 4rem 3.6rem;
   }
+    .s-header.scrolling {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  .s-header.sticky {
+    opacity: 0;
+    visibility: hidden;
+    background-color: var(--color-gray-19);
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .s-header.sticky.scrolling {
+    opacity: 1;
+    visibility: visible;
+  }
 }
 
 /* -------------------------------------------------------------------

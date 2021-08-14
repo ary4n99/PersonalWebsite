@@ -1,206 +1,298 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Aryan Agrawal</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/vendor.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/vendor.css" />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <script type="text/javascript">
-        if (!window.location.hostname.includes("aryanagrawal.com")) {
-            location.href = "https://aryanagrawal.com/";
-        }
+      if (
+        !(
+          window.location.hostname.includes("aryanagrawal.com") ||
+          window.location.hostname.includes("127.0.0.1")
+        )
+      ) {
+        location.href = "https://aryanagrawal.com/";
+      }
     </script>
     <script defer src="js/vendor/fontawesome/all.min.js"></script>
-</head>
+  </head>
 
-<body id="top" class="ss-preload">
+  <body id="top" class="ss-preload">
     <div id="preloader">
-        <div id="loader"></div>
+      <div id="loader"></div>
     </div>
 
     <header class="s-header">
-        <div class="row s-header__nav-wrap">
-            <nav class="s-header__nav">
-                <ul>
-                    <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-                    <li><a class="smoothscroll" href="#projects">Projects</a></li>
-                    <li><a class="smoothscroll" href="#contact">Contact</a></li>
-                    <li><a href="assets/AryanAgrawal-Resume.pdf">Resume</a></li>
-                </ul>
-
-            </nav>
-        </div>
-        <a class="s-header__menu-toggle" href="#0" title="Menu">
-            <span class="s-header__menu-icon"></span>
-        </a>
+      <div class="row s-header__nav-wrap">
+        <nav class="s-header__nav">
+          <ul>
+            <li class="current">
+              <a class="smoothscroll" href="#home">Home</a>
+            </li>
+            <li><a class="smoothscroll" href="#projects">Projects</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+            <li><a href="assets/AryanAgrawal-Resume.pdf">Resume</a></li>
+          </ul>
+        </nav>
+      </div>
+      <a class="s-header__menu-toggle" href="#0" title="Menu">
+        <span class="s-header__menu-icon"></span>
+      </a>
     </header>
 
     <section id="home" class="s-hero target-section">
-        <div class="s-hero__bg rellax" data-rellax-speed="-7"></div>
-        <div class="row s-hero__content">
-            <div class="column">
-                <div class="s-hero__content-about">
-                    <h1>I'm Aryan Agrawal.</h1>
-                    <h3>
-                        I'm a second year <span>computer science undergraduate</span>, and the <span>development
-                            lead</span> at <span><a href="https://unicsmcr.com/">UniCS</a></span>, <span><a
-                                href="https://www.manchester.ac.uk/">the University of
-                                Manchester</a></span>'s largest tech
-                        society.
-                    </h3>
-                    <div class="s-hero__content-social">
-                        <a href="https://github.com/ary4n99"><i class="fab fa-github" aria-hidden="true"></i></a>
-                        <a href="https://www.linkedin.com/in/aryan-a/"><i class="fab fa-linkedin"
-                                aria-hidden="true"></i></a>
-
-                    </div>
-                    <br>
-                    <br>
-                    <div class="s-hero__content-social">
-                        <a class="btn btn--resume" href="assets/AryanAgrawal-Resume.pdf">Download
-                            Resume</a>
-
-                    </div>
-
-                </div>
+      <div class="s-hero__bg rellax" data-rellax-speed="-7"></div>
+      <div class="row s-hero__content">
+        <div class="column">
+          <div class="s-hero__content-about">
+            <h1>I'm Aryan Agrawal.</h1>
+            <h3>
+              I'm a second year <span>computer science undergraduate</span>, and
+              the <span>development lead</span> at
+              <span><a href="https://unicsmcr.com/">UniCS</a></span
+              >,
+              <span
+                ><a href="https://www.manchester.ac.uk/"
+                  >the University of Manchester</a
+                ></span
+              >'s largest tech society.
+            </h3>
+            <div class="s-hero__content-social">
+              <a href="https://github.com/ary4n99"
+                ><i class="fab fa-github" aria-hidden="true"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/aryan-a/"
+                ><i class="fab fa-linkedin" aria-hidden="true"></i
+              ></a>
             </div>
+            <br />
+            <br />
+            <div class="s-hero__content-social">
+              <a class="btn btn--resume" href="assets/AryanAgrawal-Resume.pdf"
+                >Download Resume</a
+              >
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <section id="projects" class="s-testimonials target-section">
-        <div class="row s-testimonials__header">
-            <div class="column large-12">
-                <h3>Projects</h3>
-            </div>
+      <div class="row s-testimonials__header">
+        <div class="column large-12">
+          <h3>Projects</h3>
         </div>
-        <div class="row collapse block-large-1-2 block-medium-full block-tab-full block-500-stack folio-list">
-            <div class="column folio-item">
-                <a href="#modal-01" class="folio-item__thumb">
-                    <img src="images/projects/AryanAgrawal-Recipedia.png" alt="">
-                </a>
-                <div class="folio-item__info">
-                    Recipe Finder Website
-                </div>
-            </div>
-            <div class="column folio-item">
-                <a href="#modal-02" class="folio-item__thumb">
-                    <img src="images/projects/AryanAgrawal-Interphase.png" alt="">
-                </a>
-                <div class="folio-item__info">
-                    Educational Programming Website
-                </div>
-            </div>
-            <div class="column folio-item">
-                <a href="#modal-03" class="folio-item__thumb">
-                    <img src="images/projects/AryanAgrawal-Impossible-Game.png" alt="">
-                </a>
-                <div class="folio-item__info">
-                    Python Tkinter Puzzle Game
-                </div>
-            </div>
-            <div class="column folio-item">
-                <a href="#modal-04" class="folio-item__thumb">
-                    <img src="images/projects/AryanAgrawal-Tetris.png" alt="">
-                </a>
-                <div class="folio-item__info">
-                    Python Pygame Tetris Remake
-                </div>
-            </div>
+      </div>
+      <div
+        class="
+          row
+          collapse
+          block-large-1-2 block-medium-full block-tab-full block-500-stack
+          folio-list
+        "
+      >
+        <div class="column folio-item">
+          <a href="#modal-01" class="folio-item__thumb">
+            <img src="images/projects/AryanAgrawal-Recipedia.png" alt="" />
+          </a>
+          <div class="folio-item__info">Recipe Finder Website</div>
         </div>
-        <div id="modal-01" hidden>
-            <div class="modal-popup">
-                <img src="images/projects/AryanAgrawal-Recipedia.png" alt="" />
-                <div class="modal-popup__desc">
-                    <h5>Recipedia</h5>
-                    <p>A revolutionary web application which recommends healthy and tasty recipes to users based on
-                        their dietary requirements,
-                        allergies, BMI, and other user inputs.
-                    </p>
-                    <a href="https://github.com/W8-Recipedia/Recipedia" class="btn btn--small btn--stroke">Code</a>
-                    <a href="https://w8-recipedia.netlify.app/" class="btn btn--small btn--stroke">Website</a>
-                </div>
-            </div>
+        <div class="column folio-item">
+          <a href="#modal-02" class="folio-item__thumb">
+            <img src="images/projects/AryanAgrawal-Interphase.png" alt="" />
+          </a>
+          <div class="folio-item__info">Educational Programming Website</div>
         </div>
-        <div id="modal-02" hidden>
-            <div class="modal-popup">
-                <img src="images/projects/AryanAgrawal-Interphase.png" alt="" />
-                <div class="modal-popup__desc">
-                    <h5>Interphase</h5>
-                    <p>An educational website made in under 12 hours for GreatUniHack 2020, aiming to help people with
-                        no programming
-                        experience to get started with their coding journey.
-                    </p>
-                    <a href="https://github.com/TheCodingBridge/Interphase" class="btn btn--small btn--stroke">Code</a>
-                    <a href="https://thecodingbridge.github.io/Interphase/"
-                        class="btn btn--small btn--stroke">Website</a>
-                </div>
-            </div>
+        <div class="column folio-item">
+          <a href="#modal-03" class="folio-item__thumb">
+            <img
+              src="images/projects/AryanAgrawal-Impossible-Game.png"
+              alt=""
+            />
+          </a>
+          <div class="folio-item__info">Python Tkinter Puzzle Game</div>
         </div>
-        <div id="modal-03" hidden>
-            <div class="modal-popup">
-                <img src="images/projects/AryanAgrawal-Impossible-Game.png" alt="" />
-                <div class="modal-popup__desc">
-                    <h5>The Impossible Game</h5>
-                    <p>An interactive puzzle game made completely using Python’s Tkinter module, implementing collision
-                        detection,
-                        leaderboards, game saving, dynamic level progression, and much more.
-                    </p>
-                    <a href="https://github.com/ary4n99/the-impossible-game" class="btn btn--small btn--stroke">Code</a>
-                </div>
-            </div>
+        <div class="column folio-item">
+          <a href="#modal-04" class="folio-item__thumb">
+            <img src="images/projects/AryanAgrawal-Tetris.png" alt="" />
+          </a>
+          <div class="folio-item__info">Python Pygame Tetris Remake</div>
         </div>
-        <div id="modal-04" hidden>
-            <div class="modal-popup">
-                <img src="images/projects/AryanAgrawal-Tetris.png" alt="" />
-                <div class="modal-popup__desc">
-                    <h5>Tetris</h5>
-                    <p>A Pygame version of Tetris made for an EPQ project, with almost no programming experience.
-                        Accompanied by a 6234 word
-                        essay about the development of the project and code progression.
-                    </p>
-                    <a href="https://github.com/ary4n99/tetris-epq" class="btn btn--small btn--stroke">Code</a>
-                    <a href="assets/AryanAgrawal-EPQ-Essay.pdf" class="btn btn--small btn--stroke">Essay</a>
-                </div>
-            </div>
+      </div>
+      <div id="modal-01" hidden>
+        <div class="modal-popup">
+          <img src="images/projects/AryanAgrawal-Recipedia.png" alt="" />
+          <div class="modal-popup__desc">
+            <h5>Recipedia</h5>
+            <p>
+              A revolutionary web application which recommends healthy and tasty
+              recipes to users based on their dietary requirements, allergies,
+              BMI, and other user inputs.
+            </p>
+            <a
+              href="https://github.com/W8-Recipedia/Recipedia"
+              class="btn btn--small btn--stroke"
+              >Code</a
+            >
+            <a
+              href="https://w8-recipedia.netlify.app/"
+              class="btn btn--small btn--stroke"
+              >Website</a
+            >
+          </div>
         </div>
+      </div>
+      <div id="modal-02" hidden>
+        <div class="modal-popup">
+          <img src="images/projects/AryanAgrawal-Interphase.png" alt="" />
+          <div class="modal-popup__desc">
+            <h5>Interphase</h5>
+            <p>
+              An educational website made in under 12 hours for GreatUniHack
+              2020, aiming to help people with no programming experience to get
+              started with their coding journey.
+            </p>
+            <a
+              href="https://github.com/TheCodingBridge/Interphase"
+              class="btn btn--small btn--stroke"
+              >Code</a
+            >
+            <a
+              href="https://thecodingbridge.github.io/Interphase/"
+              class="btn btn--small btn--stroke"
+              >Website</a
+            >
+          </div>
+        </div>
+      </div>
+      <div id="modal-03" hidden>
+        <div class="modal-popup">
+          <img src="images/projects/AryanAgrawal-Impossible-Game.png" alt="" />
+          <div class="modal-popup__desc">
+            <h5>The Impossible Game</h5>
+            <p>
+              An interactive puzzle game made completely using Python’s Tkinter
+              module, implementing collision detection, leaderboards, game
+              saving, dynamic level progression, and much more.
+            </p>
+            <a
+              href="https://github.com/ary4n99/the-impossible-game"
+              class="btn btn--small btn--stroke"
+              >Code</a
+            >
+          </div>
+        </div>
+      </div>
+      <div id="modal-04" hidden>
+        <div class="modal-popup">
+          <img src="images/projects/AryanAgrawal-Tetris.png" alt="" />
+          <div class="modal-popup__desc">
+            <h5>Tetris</h5>
+            <p>
+              A Pygame version of Tetris made for an EPQ project, with almost no
+              programming experience. Accompanied by a 6234 word essay about the
+              development of the project and code progression.
+            </p>
+            <a
+              href="https://github.com/ary4n99/tetris-epq"
+              class="btn btn--small btn--stroke"
+              >Code</a
+            >
+            <a
+              href="assets/AryanAgrawal-EPQ-Essay.pdf"
+              class="btn btn--small btn--stroke"
+              >Essay</a
+            >
+          </div>
+        </div>
+      </div>
     </section>
     <section id="contact" class="s-portfolio target-section">
-        <div class="row s-contact__header">
-            <div class="column large-12">
-                <h3 class="section-header-allcaps">Contact</h3>
-            </div>
+      <div class="row s-contact__header">
+        <div class="column large-12">
+          <h3 class="section-header-allcaps">Contact</h3>
         </div>
-        <div class="row s-contact__content">
-            <div class="column large-12 medium-12">
-                <form name="contact" netlify>
-                    <div>
-                        <div class="row">
-                            <div class="column large-6 medium-12">
-                                <input type="text" name="name" placeholder="Name" class="h-full-width" />
-                            </div>
-                            <div class="column large-6 medium-12">
-                                <input type="email" name="email" placeholder="Email" class="h-full-width" />
-                            </div>
-                            <div class="column large-12">
-                                <input type="text" name="subject" placeholder="Subject" class="h-full-width" />
-                            </div>
-                            <div class="column large-12">
-                                <textarea name="message" placeholder="Message" class="h-full-width"></textarea>
-                            </div>
-                            <div class="column large-12">
-                                <input type="submit" value="Submit" class="btn btn--primary" style="float: right;" />
-                            </div>
-                        </div>
-                    </div>
-                </form>
+      </div>
+      <div class="row s-contact__content">
+        <div class="column large-7 medium-12">
+          <form name="contact" netlify>
+            <div>
+              <div class="row">
+                <div class="column large-6 medium-12">
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Name"
+                    class="h-full-width"
+                  />
+                </div>
+                <div class="column large-6 medium-12">
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    class="h-full-width"
+                  />
+                </div>
+                <div class="column large-12">
+                  <input
+                    type="text"
+                    name="subject"
+                    placeholder="Subject"
+                    class="h-full-width"
+                  />
+                </div>
+                <div class="column large-12">
+                  <textarea
+                    name="message"
+                    placeholder="Message"
+                    class="h-full-width"
+                  ></textarea>
+                </div>
+                <div class="column large-12">
+                  <input
+                    type="submit"
+                    value="Submit"
+                    class="btn btn--primary"
+                    style="float: right"
+                  />
+                </div>
+              </div>
             </div>
+          </form>
         </div>
+        <div class="column large-5 medium-12">
+          <div class="row contact-infos">
+            <div class="column large-12 medium-6 tab-12">
+              <div class="contact-block">
+                <h5 class="contact-block__header">Email</h5>
+                <p class="contact-block__content">
+                  <a href="mailto:sayhello@ceevee.com"
+                    >contact@aryanagrawal.com</a
+                  >
+                </p>
+              </div>
+              <!-- end contact-block -->
+            </div>
+            <div class="column large-12 medium-6 tab-12">
+              <div class="contact-block">
+                <h5 class="contact-block__header">Phone</h5>
+                <p class="contact-block__content">
+                  <a href="tel:+447723038722">+44 77230 38722</a>
+                </p>
+              </div>
+              <!-- end contact-block -->
+            </div>
+          </div>
+          <!-- end contact-infos -->
+        </div>
+      </div>
     </section>
+
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-</body>
-
+  </body>
 </html>

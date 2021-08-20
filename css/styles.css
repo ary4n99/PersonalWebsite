@@ -3559,6 +3559,11 @@ button.btn--resume:hover {
   left: 50%;
 }
 
+.s-hero__content a:hover,
+.s-hero__content a:focus {
+  color: var(--color-2-light);
+}
+
 /* -------------------------------------------------------------------
  * ## hero social
  * ------------------------------------------------------------------- */

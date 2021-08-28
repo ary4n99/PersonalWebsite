@@ -4013,7 +4013,7 @@ button.btn--resume:hover {
 
 .folio-item__info {
   text-align: center;
-  padding: 25px;
+  padding: 25px 25px 75px;
 }
 
 .folio-item__thumb::before {

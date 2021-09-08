@@ -295,8 +295,9 @@
         <div class="column large-7 medium-12">
           <form
             name="Contact"
+            method="POST"
             data-netlify="true"
-            data-netlify-recaptcha="true"
+            netlify-honeypot="bot-field"
           >
             <div>
               <div class="row">
@@ -306,6 +307,7 @@
                     name="Name"
                     placeholder="Name"
                     class="h-full-width"
+                    required
                   />
                 </div>
                 <div class="column large-6 medium-12">
@@ -314,6 +316,7 @@
                     name="Email"
                     placeholder="Email"
                     class="h-full-width"
+                    required
                   />
                 </div>
                 <div class="column large-12">
@@ -322,6 +325,7 @@
                     name="Subject"
                     placeholder="Subject"
                     class="h-full-width"
+                    required
                   />
                 </div>
                 <div class="column large-12">
@@ -329,12 +333,19 @@
                     name="Message"
                     placeholder="Message"
                     class="h-full-width"
+                    required
                   ></textarea>
                 </div>
-                <div
-                  class="column large-6 medium-12"
-                  data-netlify-recaptcha="true"
-                ></div>
+                <div class="column large-6 medium-12 is-invisible">
+                  <input
+                    type="text"
+                    name="bot-field"
+                    placeholder="Honeypot"
+                    class="h-full-width"
+                    required
+                  />
+                </div>
+
                 <div class="column large-6 medium-12">
                   <input
                     type="submit"

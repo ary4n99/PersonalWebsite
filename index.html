@@ -293,13 +293,17 @@
       </div>
       <div class="row s-contact__content">
         <div class="column large-7 medium-12">
-          <form name="contact" netlify>
+          <form
+            name="Contact"
+            data-netlify="true"
+            data-netlify-recaptcha="true"
+          >
             <div>
               <div class="row">
                 <div class="column large-6 medium-12">
                   <input
                     type="text"
-                    name="name"
+                    name="Name"
                     placeholder="Name"
                     class="h-full-width"
                   />
@@ -307,7 +311,7 @@
                 <div class="column large-6 medium-12">
                   <input
                     type="email"
-                    name="email"
+                    name="Email"
                     placeholder="Email"
                     class="h-full-width"
                   />
@@ -315,19 +319,23 @@
                 <div class="column large-12">
                   <input
                     type="text"
-                    name="subject"
+                    name="Subject"
                     placeholder="Subject"
                     class="h-full-width"
                   />
                 </div>
                 <div class="column large-12">
                   <textarea
-                    name="message"
+                    name="Message"
                     placeholder="Message"
                     class="h-full-width"
                   ></textarea>
                 </div>
-                <div class="column large-12">
+                <div
+                  class="column large-6 medium-12"
+                  data-netlify-recaptcha="true"
+                ></div>
+                <div class="column large-6 medium-12">
                   <input
                     type="submit"
                     value="Submit"
